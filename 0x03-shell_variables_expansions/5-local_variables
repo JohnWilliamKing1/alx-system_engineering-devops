@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "Local Variables:\n$(set)\n\nEnvironment Variables:\n$(printenv)\n\nFunctions:\n$(declare -F)"
